@@ -49,6 +49,23 @@ country	Japan	#F38700
 country	New Zealand	#996633
 country	Australia	#c37509
 
+focal_country	USA	#6b4519
+focal_country	Ireland	#8b1e16
+focal_country	United Kingdom	#DC2F24
+focal_country	Norway	#f19d00
+focal_country	Spain	#FFCC00
+focal_country	France	#86d37b
+focal_country	Netherlands	#339933
+focal_country	Belgium	#174617
+focal_country	Germany	#3399FF
+focal_country	Switzerland	#1c4fc1
+focal_country	Italy	#050080
+focal_country	Sweden	#511EA8
+focal_country	Denmark	#9933FF
+focal_country	Australia	#f7adec
+focal_country	Japan	#FC2875
+
+
 region	Japan Korea	#996633
 region	North America	#DC2F24
 region	South America	#f19d00
