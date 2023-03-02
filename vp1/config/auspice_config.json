@@ -1,6 +1,27 @@
 {
   "title": "Phylodynamics of Enterovirus D68 - VP1",
+  "build_url": "https://github.com/emmahodcroft/ev_d68_enpen2022",
   "colorings": [
+    {
+      "title": "Clade",
+      "type": "categorical",
+      "key": "clade_membership"
+    },
+    {
+      "title": "Symptom",
+      "type": "categorical",
+      "key": "symptom"
+    },
+    {
+      "title": "Country",
+      "type": "categorical",
+      "key": "country"
+    },
+    {
+      "title": "Region",
+      "type": "categorical",
+      "key": "region"
+    },
     {
       "title": "Host Age (years)",
       "type": "continuous",
@@ -27,16 +48,6 @@
       "key": "num_date"
     },
     {
-      "title": "Country",
-      "type": "categorical",
-      "key": "country"
-    },
-    {
-      "title": "Region",
-      "type": "categorical",
-      "key": "region"
-    },
-    {
       "type": "categorical",
       "title": "Collaborators",
       "key": "collab_country"
@@ -57,16 +68,6 @@
       "key": "seq-len"
     },
     {
-      "title": "Clade",
-      "type": "categorical",
-      "key": "clade_membership"
-    },
-    {
-      "title": "Symptom",
-      "type": "categorical",
-      "key": "symptom"
-    },
-    {
       "title": "Epitope at BC loop (Pos 90,92,95,97,98,103)",
       "type": "categorical",
       "key": "BC"
@@ -80,6 +81,11 @@
       "title": "Epitope at C terminus",
       "type": "categorical",
       "key": "CTERM"
+    },
+    {
+      "title": "Focal Country",
+      "type": "categorical",
+      "key": "focal_country"
     }
   ],
   "geo_resolutions": [
@@ -87,9 +93,8 @@
   ],
   "maintainers": [
     {"name": "Emma Hodcroft", "url": "http://emmahodcroft.com/"},
-    {"name": "Richard Neher", "url": "http://neherlab.org"},
-    {"name": "Robert Dyrdak", "url": "https://staff.ki.se/people/robert-dyrdak"},
-    {"name": "Jan Albert", "url": "https://staff.ki.se/people/jan-albert"}
+    {"name": "Margarida Pires Simoes", "url": "https://www.cienciavitae.pt/portal/511C-89AD-16E8"},
+    {"name": "Kim Benschop", "url": "https://organovir.com/kim-benschop/"}
   ],
   "filters": [
     "country",

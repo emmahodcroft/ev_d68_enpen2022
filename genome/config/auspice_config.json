@@ -1,6 +1,27 @@
 {
   "title": "Phylodynamics of Enterovirus D68",
+  "build_url": "https://github.com/emmahodcroft/ev_d68_enpen2022",
   "colorings": [
+    {
+      "title": "Clade",
+      "type": "categorical",
+      "key": "clade_membership"
+    },
+    {
+      "title": "Symptom",
+      "key": "symptom",
+      "type":"categorical"
+    },
+    {
+      "title": "Country",
+      "key": "country",
+      "type": "categorical"
+    },
+    {
+      "title": "Region",
+      "type": "categorical",
+      "key": "region"
+    },
     {
       "title": "Host age (years)",
       "type": "continuous",
@@ -27,14 +48,9 @@
       "key": "num_date"
     },
     {
-      "title": "Country",
-      "key": "country",
-      "type": "categorical"
-    },
-    {
-      "title": "Region",
+      "title": "Gender",
       "type": "categorical",
-      "key": "region"
+      "key": "sex"
     },
     {
       "type": "categorical",
@@ -45,21 +61,6 @@
       "title": "Date added",
       "type": "categorical",
       "key": "date_added"
-    },
-    {
-      "title": "Clade",
-      "type": "categorical",
-      "key": "clade_membership"
-    },
-    {
-      "title": "Symptom",
-      "key": "symptom",
-      "type":"categorical"
-    },
-    {
-      "title": "Gender",
-      "type": "categorical",
-      "key": "sex"
     }
   ],
   "geo_resolutions": [
@@ -67,9 +68,8 @@
   ],
   "maintainers": [
     {"name": "Emma Hodcroft", "url": "http://emmahodcroft.com/"},
-    {"name": "Richard Neher", "url": "http://neherlab.org"},
-    {"name": "Robert Dyrdak", "url": "https://staff.ki.se/people/robert-dyrdak"},
-    {"name": "Jan Albert", "url": "https://staff.ki.se/people/jan-albert"}
+    {"name": "Margarida Pires Simoes", "url": "https://www.cienciavitae.pt/portal/511C-89AD-16E8"},
+    {"name": "Kim Benschop", "url": "https://organovir.com/kim-benschop/"}
   ],
   "filters": [
     "country", 
