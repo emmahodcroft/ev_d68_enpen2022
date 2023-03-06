@@ -1042,3 +1042,31 @@ rule export_genome:
             --lat-longs {input.lat_lon}
         """
         #--output-tree {output.auspice_tree} --output-meta {output.auspice_meta} \
+
+
+#This is a _Highly specific_ rule just to copy and rename files
+# from this repo to evd68-2022 for display with publication
+#remember to rename _300 files to -300
+
+rule move_files:
+    input:
+        file1 = "../../evd68-2022/auspice/evd68-2022_vp1.json",
+        file2 = "../../evd68-2022/auspice/evd68-2022_genome.json",
+        file3 = "../../evd68-2022/auspice/evd68-2022_vp1_300.json",
+
+rule move_files_pieces:
+    input:
+        file1 = "{length}/auspice/enterovirus_d68_{length}{min_len}.json",
+        file2 = "{length}/auspice/enterovirus_d68_{length}{min_len}_root-sequence.json",
+        file3 = "{length}/auspice/enterovirus_d68_{length}{min_len}_tip-frequencies.json",
+    output:
+        file1 = "../../evd68-2022/auspice/evd68-2022_{length}{min_len}.json",
+        file2 = "../../evd68-2022/auspice/evd68-2022_{length}{min_len}_root-sequence.json",
+        file3 = "../../evd68-2022/auspice/evd68-2022_{length}{min_len}_tip-frequencies.json"
+    shell:
+        """
+        cp {input.file1} {output.file1}
+        cp {input.file2} {output.file2}
+        cp {input.file3} {output.file3}
+        """
+
