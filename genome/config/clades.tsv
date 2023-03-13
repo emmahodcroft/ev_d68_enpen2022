@@ -36,19 +36,19 @@ B3-EU19	nuc	2628	A
 B3-EU19	nuc	2796	C
 B3-EU19	nuc	2392	A
 
-B3.1	nuc	2490	A
-B3.1	nuc	2658	C
-B3.1	nuc	2671	A
-B3.1	nuc	2529	A
-B3.1	nuc	2919	G
-B3.1	nuc	3021	A
+B3-lin1	nuc	2490	A
+B3-lin1	nuc	2658	C
+B3-lin1	nuc	2671	A
+B3-lin1	nuc	2529	A
+B3-lin1	nuc	2919	G
+B3-lin1	nuc	3021	A
 
 A2/D-19	nuc	2520	T
 A2/D-19	nuc	2589	T
 A2/D-19	nuc	2613	C
 A2/D-19	nuc	2672	G
 
-B3.2	nuc	2490	A
-B3.2	nuc	2658	T
-B3.2	nuc	2595	T
-B3.2	nuc	1113	C
+B3-lin2	nuc	2490	A
+B3-lin2	nuc	2658	T
+B3-lin2	nuc	2595	T
+B3-lin2	nuc	1113	C

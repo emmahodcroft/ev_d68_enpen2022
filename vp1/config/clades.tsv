@@ -38,12 +38,12 @@ B3-EU19	nuc	240	A
 B3-EU19	nuc	408	C
 B3-EU19	nuc	4	A
 
-B3.1	nuc	102	A
-B3.1	nuc	270	C
-B3.1	nuc	283	A
-B3.1	nuc	141	A
-B3.1	nuc	531	G
-B3.1	nuc	633	A
+B3-lin1	nuc	102	A
+B3-lin1	nuc	270	C
+B3-lin1	nuc	283	A
+B3-lin1	nuc	141	A
+B3-lin1	nuc	531	G
+B3-lin1	nuc	633	A
 
 
 A2/D-19	nuc	132	T
@@ -51,7 +51,7 @@ A2/D-19	nuc	201	T
 A2/D-19	nuc	225	C
 A2/D-19	nuc	284	G
 
-B3.2	nuc	102	A
-B3.2	nuc	270	T
-B3.2	nuc	207	T
-B3.2	nuc	564	C
+B3-lin2	nuc	102	A
+B3-lin2	nuc	270	T
+B3-lin2	nuc	207	T
+B3-lin2	nuc	564	C
